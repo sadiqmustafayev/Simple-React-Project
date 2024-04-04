@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111;
+  color: white;
+}
+
+section{
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  background-color: #4f5258;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: #1c75b1;
+}
+
+button.active{
+  background-color: #1c75b1;
+}

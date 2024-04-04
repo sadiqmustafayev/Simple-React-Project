@@ -1,0 +1,12 @@
+.blogs__item{
+  border: 1px solid #e3e3e3;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.blogs__item strong{
+  margin-bottom: 8px;
+  display: block;
+  font-size: 24px;
+}
